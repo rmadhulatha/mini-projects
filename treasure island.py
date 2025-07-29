@@ -9,10 +9,10 @@ else:
     if choice2 == 'wait':
         print("Attacked by dark monster")
     else:
-        choice3 = input("After swimming you entered into the island. there are tree doors infront of you which one will you choose red, yellow, blue")
-        if choise3 == 'Red':
+        choice3 = input("After swimming you entered into the island. there are three doors infront of you which one will you choose red, yellow, blue")
+        if choice3 == 'Red':
             print("Burned by fire Game Over.")
-        elif choise3 == 'Blue':
+        elif choice3 == 'Blue':
             print("Killed by pirates Game Over.")
         else:
             print("You found the treasure.")
